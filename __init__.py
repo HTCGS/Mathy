@@ -1,3 +1,0 @@
-import calculus
-import probability_and_statisticks
-import algorithms

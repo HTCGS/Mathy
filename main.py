@@ -4,8 +4,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 from calculus import *
 
-
-def func(x): return x**2
+def func(x): return np.ones_like(x)
 
 df = derivative_function(func)
 print(df(3))
